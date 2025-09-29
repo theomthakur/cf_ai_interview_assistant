@@ -121,10 +121,6 @@ wrangler pages deploy out --project-name=cf-ai-interview-frontend
 - **Global Coverage**: Deployed across 300+ Cloudflare locations
 - **Uptime**: 99.9% availability with automatic failover
 
-## Contributing
-
-We welcome contributions! Please see our contributing guidelines for more details.
-
 ## License
 
 MIT License - feel free to use this project for your portfolio!
