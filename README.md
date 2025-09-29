@@ -2,7 +2,7 @@
 
 An AI-powered technical interview preparation platform built on Cloudflare's edge infrastructure. This application provides real-time mock interviews with an AI interviewer, code evaluation, and personalized feedback.
 
-## 🚀 Features
+## Features
 
 - **AI-Powered Interviews**: Realistic technical interviews powered by Llama 3.3
 - **Real-time Communication**: WebSocket-based chat for instant responses
@@ -12,7 +12,7 @@ An AI-powered technical interview preparation platform built on Cloudflare's edg
 - **Performance Analytics**: Track progress and get detailed feedback
 - **Voice Input Support**: Optional voice-to-text for natural conversation
 
-## 🛠️ Tech Stack
+## Tech Stack
 
 - **Frontend**: Next.js, React, TypeScript, Tailwind CSS
 - **Backend**: Cloudflare Workers, Durable Objects, Workers AI
@@ -20,13 +20,13 @@ An AI-powered technical interview preparation platform built on Cloudflare's edg
 - **AI Model**: Llama 3.3 70B via Workers AI
 - **Real-time**: WebSockets, Server-Sent Events
 
-## 📋 Prerequisites
+## Prerequisites
 
 - Node.js 18+ and npm
 - Cloudflare account (free tier works)
 - Wrangler CLI installed (`npm install -g wrangler`)
 
-## 🔧 Installation & Setup
+## Installation & Setup
 
 ### 1. Clone the repository
 \`\`\`bash
@@ -79,7 +79,7 @@ npm run build
 wrangler pages deploy out --project-name=cf-ai-interview-frontend
 \`\`\`
 
-## 🎮 Usage
+## Usage
 
 1. Visit the deployed application URL
 2. Select your interview type (Frontend, Backend, etc.)
@@ -88,7 +88,7 @@ wrangler pages deploy out --project-name=cf-ai-interview-frontend
 5. Receive real-time feedback and suggestions
 6. Review your performance summary at the end
 
-## 🏗️ Architecture
+## Architecture
 
 \`\`\`
 ┌─────────────┐     ┌─────────────┐     ┌─────────────┐
@@ -110,7 +110,7 @@ wrangler pages deploy out --project-name=cf-ai-interview-frontend
               └──────────┘
 \`\`\`
 
-## 🔑 Key Components
+## Key Components
 
 ### Workers
 - **API Routes**: RESTful endpoints for session management
@@ -126,27 +126,27 @@ wrangler pages deploy out --project-name=cf-ai-interview-frontend
 - **Code Editor**: Monaco-based editor with syntax highlighting
 - **Real-time Updates**: WebSocket integration for live feedback
 
-## 📊 Performance
+## Performance
 
 - **Response Time**: <100ms for API calls (edge deployment)
 - **AI Response**: ~2-3 seconds for complex queries
 - **Global Coverage**: Deployed across 300+ Cloudflare locations
 - **Uptime**: 99.9% availability with automatic failover
 
-## 🤝 Contributing
+## Contributing
 
 We welcome contributions! Please see our contributing guidelines for more details.
 
-## 📝 License
+## License
 
 MIT License - feel free to use this project for your portfolio!
 
-## 🙏 Acknowledgments
+## Acknowledgments
 
 - Cloudflare Workers team for the amazing platform
 - Meta for Llama 3.3 model
 - The open-source community
 
-## 📧 Contact
+## Contact
 
 For questions or feedback, please open an issue or reach out via GitHub.
