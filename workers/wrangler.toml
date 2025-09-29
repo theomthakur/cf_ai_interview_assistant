@@ -1,0 +1,27 @@
+name = "ai-interview-worker"
+main = "src/index.ts"
+compatibility_date = "2024-01-01"
+
+[[migrations]]
+tag = "v1"
+new_sqlite_classes = ["InterviewSession"]
+
+[[durable_objects.bindings]]
+name = "INTERVIEW_SESSION"
+class_name = "InterviewSession"
+script_name = "ai-interview-worker"
+
+[[kv_namespaces]]
+binding = "INTERVIEW_HISTORY"
+id = "a822bee70f2c46a99b1c2d1f257b5d0a"
+
+[[d1_databases]]
+binding = "DB"
+database_name = "ai-interview-db"
+database_id = "25588253-9407-4beb-9220-de946b5450e7"
+
+[ai]
+binding = "AI"
+
+[vars]
+ENVIRONMENT = "production"
