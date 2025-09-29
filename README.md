@@ -2,6 +2,10 @@
 
 An AI-powered technical interview preparation platform built on Cloudflare's edge infrastructure. This application provides real-time mock interviews with an AI interviewer, code evaluation, and personalized feedback.
 
+## Live Demo
+
+https://8c2e7a52.cf-ai-interview-frontend.pages.dev/
+
 ## Features
 
 - **AI-Powered Interviews**: Realistic technical interviews powered by Llama 3.3
