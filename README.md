@@ -34,7 +34,7 @@ https://8c2e7a52.cf-ai-interview-frontend.pages.dev/
 
 ### 1. Clone the repository
 \`\`\`bash
-git clone https://github.com/yourusername/cf_ai_interview_assistant.git
+git clone https://github.com/theomthakur/cf_ai_interview_assistant.git
 cd cf_ai_interview_assistant
 \`\`\`
 
@@ -95,23 +95,7 @@ wrangler pages deploy out --project-name=cf-ai-interview-frontend
 ## Architecture
 
 \`\`\`
-┌─────────────┐     ┌─────────────┐     ┌─────────────┐
-│   Frontend  │────▶│   Workers   │────▶│  Workers AI │
-│  (Next.js)  │     │   (Hono)    │     │  (Llama 3.3)│
-└─────────────┘     └─────────────┘     └─────────────┘
-                           │
-                    ┌──────┴──────┐
-                    ▼             ▼
-              ┌──────────┐  ┌──────────┐
-              │    D1    │  │    KV    │
-              │ Database │  │  Storage │
-              └──────────┘  └──────────┘
-                    │
-                    ▼
-              ┌──────────┐
-              │ Durable  │
-              │ Objects  │
-              └──────────┘
+<img width="488" height="369" alt="image" src="https://github.com/user-attachments/assets/5bef3324-e820-42c5-9f8a-7cbd8749a89e" />
 \`\`\`
 
 ## Key Components
