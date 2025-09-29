@@ -39,7 +39,7 @@ app.get('/api/ws', async (c) => {
 app.use('/*', cors({
   origin: ['http://localhost:3000',
   'https://cf-ai-interview-frontend.pages.dev',
-  'https://df9242de.cf-ai-interview-frontend.pages.dev'],
+  'https://8c2e7a52.cf-ai-interview-frontend.pages.dev'],
   allowMethods: ['GET', 'POST', 'PUT', 'DELETE', 'OPTIONS'],
   allowHeaders: ['Content-Type', 'Authorization'],
   credentials: true,
