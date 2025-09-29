@@ -1,4 +1,4 @@
-# cf_ai_interview_assistant
+# Virtview - Your AI Powered Technical Interview Companion (cf_ai_interview_assistant)
 
 An AI-powered technical interview preparation platform built on Cloudflare's edge infrastructure. This application provides real-time mock interviews with an AI interviewer, code evaluation, and personalized feedback.
 
